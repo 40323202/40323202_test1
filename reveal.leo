@@ -2028,11 +2028,20 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 	
 </t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
-&lt;/section&gt;
-				
+    &lt;h1&gt;上課筆記&lt;/h1&gt;
+    &lt;p&gt;建新的Github資料夾&lt;/p&gt;
+&lt;/p&gt;git clone 資料夾的網址&lt;/p&gt;
+&lt;/p&gt;cd 資料夾名稱&lt;/p&gt;
+&lt;/p&gt;git branch gh-pages(建立分支)&lt;/p&gt;
+&lt;/p&gt;git checkout gh-pages(切換分支)&lt;/p&gt;
+&lt;/p&gt;複製reveal-gh-pages(README.md除
+外)至資料夾&lt;/p&gt;
+&lt;/p&gt;git add -A&lt;/p&gt;
+&lt;/p&gt;git commit-m "檔案註解"&lt;/p&gt;
+&lt;/p&gt;git config--global user.email&lt;/p&gt;
+&lt;/p&gt;git config--global user.name&lt;/p&gt;
+&lt;/p&gt;git push original gh-pages&lt;/p&gt;
+&lt;/section&gt;	
 </t>
 <t tx="amd.20150917085040.1">&lt;!--
 這個檔案展示了 reveal.js 投影片資料的基本架構
